@@ -13,7 +13,6 @@ header{
 }
 
 #logoname{
-  display: inline-block;
   font-size: 40px;
   font-weight: 700;
   color: black;
@@ -35,12 +34,13 @@ main{
   
 }
 
-.pulsanti{
+.riga{
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .bottone{
+  display: inline-block;
   padding: 10px;
   border-radius: 10px;
   font-size: 15px;
@@ -60,6 +60,43 @@ opacity: 0.5;
 }
 
 hr{
-border: 2px solid #F6F8F9;
-width: 100%;
+  position: relative;
+  left: -50px;
+  right: 0px;
+  width: calc(100% + 100px);
+  height: 5px;
+  background-color: #F6F8F9;
+  border: none;
 }
+
+.down{
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.task, .down, #logoname{
+  display: inline-block;
+}
+
+.fatto{
+  border: 2px solid green;
+}
+
+.icon{
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+}
+
+.tag {
+  width: 70px;
+  height: 50px;
+  border-radius: 35%;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background-color: blue;
+}
+
