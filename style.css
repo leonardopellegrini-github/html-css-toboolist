@@ -8,8 +8,8 @@ main{
   background-color: grey;
 }
 
-header{
-  text-align: left;
+header>p, header>img{
+  vertical-align: middle;
 }
 
 #logoname{
@@ -23,19 +23,20 @@ main{
   padding: 30px;
 }
 
-#boxed{
+#boxed, nav{
   padding: 50px;
   background-color: white;
   width: 80%; 
   max-width: 1100px;
   min-width: 600px;
   margin 0 auto;
-  border-radius: 15px;
+  border-radius: 15px 0px 15px 0px ;
+  border: 2px solid #F6F8F9;
   
 }
 
 .riga{
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
