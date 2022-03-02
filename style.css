@@ -125,3 +125,12 @@ hr{
 .rosa{
   background-color: #D863A1;
 }
+
+li{
+  list-style: none;
+  padding-bottom: 20px;
+}
+ul {
+  list-style-type:none;
+  padding-left: 0;
+}
